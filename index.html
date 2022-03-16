@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>FunPoint</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Descargar FunPoint" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <script type="text/javascript">
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera
+
+      if (/android/i.test(userAgent)) {
+        window.location.href = 'https://apps.apple.com/es/app/imdb-cine-tv/id342792525' //TODO: URL from AppStore
+      } else if (/iPad|iPhone|iPod/.test(userAgent)) {
+        window.location.href = 'https://apps.apple.com/es/app/imdb-cine-tv/id342792525' //TODO: URL from GooglePlay
+      } else {
+        window.location.href = 'https://funpoint.es/#download'
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
